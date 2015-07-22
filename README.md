@@ -91,10 +91,11 @@ If you ran into "Segmentation fault 11" then following the steps suggested by So
 
 How to compile python-tesseract from svn version of tesseract-ocr
 -------------------------------------------------------------------
-For cygwin Only
+For Cygwin Only
+
 1. Install cygwin by starting setup.exe
-2. then install subversion and wget
-3. start cygwin-bash-shell
+2. Then install subversion and wget
+3. Start cygwin-bash-shell
 ```
 svn --force export http://apt-cyg.googlecode.com/svn/trunk/src /bin/
 chmod +x /bin/apt-cyg
